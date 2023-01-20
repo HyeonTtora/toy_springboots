@@ -80,10 +80,8 @@
 	</div>
 </div>
 <div class="form-group form-row">
-	<div class="col">
-		<label>BIRTHDAY</label> <input class="form-control" type="text"
-			name="BIRTHDAY" value="${resultMap.BIRTHDAY}" />
-	</div>
+	          <label for="BIRTHDAY">BIRTHDAY</label>
+                    <input type="date" class="form-control" id="BIRTHDAY" name="BIRTHDAY" value="${resultMap.BIRTHDAY}"required>
 </div>
 <div class="form-group form-row">
 	<div class="col">
